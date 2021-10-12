@@ -13,6 +13,7 @@
 body {
     background-color: var(--black);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
@@ -35,4 +36,26 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+
+/* filme principal */
+
+.main-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .synopsis {
+    margin-bottom: 40px;
+}
+
+.title-movie {
+    font-size: 40px;
 }
