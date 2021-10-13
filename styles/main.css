@@ -53,9 +53,32 @@ header nav a:hover {
 }
 
 .main-movie .synopsis {
+    margin-top:10px;
     margin-bottom: 40px;
 }
 
-.title-movie {
+.main-movie .title-movie {
+    text-transform: uppercase;
+    margin-top: 15%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.button {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: .7s ease-out;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button i {
+    margin-right: 5px;
 }
